@@ -2,7 +2,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-brightgreen?style=for-the-badge)](https://hyogo-hospitals-guide.vercel.app/)
 
-A comprehensive, user-friendly, and multilingual web application designed to help residents, expats, and tourists in Hyogo Prefecture, Japan, easily find hospitals and medical clinics.
+A comprehensive, user-friendly, and multilingual website designed to help residents, expats, and tourists in Hyogo Prefecture, Japan, easily find hospitals and medical clinics.
 
 ---
 
@@ -16,7 +16,7 @@ A comprehensive, user-friendly, and multilingual web application designed to hel
 
 ## 🌍 Supported Languages
 
-Our application proudly provides full localization for the following 6 languages:
+Our website proudly provides full localization for the following 6 languages:
 - 🇬🇧 **English** (`en`)
 - 🇯🇵 **Japanese** (`ja`)
 - 🇸🇦 **Arabic** (`ar`)
