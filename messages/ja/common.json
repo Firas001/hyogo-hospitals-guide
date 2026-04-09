@@ -6,10 +6,17 @@
     "noFacilitiesFound": "施設が見つかりません",
     "noFacilitiesDesc": "現在のフィルター条件に一致する病院やクリニックは見つかりませんでした。条件を変更して再度お試しください。",
     "clearAllFilters": "すべてのフィルターをクリア",
-    "headerTitle": "兵庫医療ガイド",
-    "footerTitle": "兵庫医療ガイド",
     "volunteeringProject": "兵庫の学生のためのボランティアプロジェクト",
     "developer": "開発者:",
     "dataSource": "データ提供元:",
-    "openSourceProject": "オープンソースプロジェクト"
+    "openSourceProject": "オープンソースプロジェクト",
+    "filterByArea": "エリアで絞り込む",
+    "allAreas": "すべてのエリア",
+    "filterBySpecialty": "専門で絞り込む",
+    "allSpecialties": "すべての専門",
+    "phone": "電話番号:",
+    "hours": "診療時間:",
+    "address": "住所:",
+    "website": "ウェブサイト",
+    "map": "地図"
 }

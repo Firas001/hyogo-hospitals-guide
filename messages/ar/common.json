@@ -6,10 +6,17 @@
     "noFacilitiesFound": "لم يتم العثور على مرافق طبية",
     "noFacilitiesDesc": "لم نتمكن من العثور على أي مستشفيات أو عيادات تطابق المعايير المحددة. يرجى تعديل البحث.",
     "clearAllFilters": "مسح كافة الفلاتر",
-    "headerTitle": "دليل هيوجو الطبي",
-    "footerTitle": "دليل هيوجو الطبي",
     "volunteeringProject": "مشروع تطوعي لطلبة هيوجو",
     "developer": "المطور:",
     "dataSource": "مصدر البيانات:",
-    "openSourceProject": "مشروع مفتوح المصدر"
+    "openSourceProject": "مشروع مفتوح المصدر",
+    "filterByArea": "تصفية حسب المنطقة",
+    "allAreas": "كل المناطق",
+    "filterBySpecialty": "تصفية حسب التخصص",
+    "allSpecialties": "كل التخصصات",
+    "phone": "الهاتف:",
+    "hours": "ساعات العمل:",
+    "address": "العنوان:",
+    "website": "الموقع الإلكتروني",
+    "map": "الخريطة"
 }

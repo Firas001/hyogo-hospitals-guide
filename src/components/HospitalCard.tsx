@@ -6,6 +6,7 @@ export default function HospitalCard({ hospital }: { hospital: Hospital }) {
     const tAreas = useTranslations('areas');
     const tSpecialties = useTranslations('specialties');
     const tHospitals = useTranslations('hospitals');
+    const tCommon = useTranslations('common');
 
     return (
         <div className="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 p-6 flex flex-col h-full">
@@ -25,9 +26,9 @@ export default function HospitalCard({ hospital }: { hospital: Hospital }) {
             </div>
 
             <div className="space-y-2 text-sm text-gray-600 flex-grow">
-                <p><strong className="text-gray-700">Phone:</strong> {hospital.phone}</p>
-                <p><strong className="text-gray-700">Hours:</strong> {tHospitals(`${hospital.key}.hours`)}</p>
-                <p><strong className="text-gray-700">Address:</strong> {tHospitals(`${hospital.key}.address`)}</p>
+                <p><strong className="text-gray-700">{tCommon('phone')}</strong> <span dir="ltr">{hospital.phone}</span></p>
+                <p><strong className="text-gray-700">{tCommon('hours')}</strong> {tHospitals(`${hospital.key}.hours`)}</p>
+                <p><strong className="text-gray-700">{tCommon('address')}</strong> {tHospitals(`${hospital.key}.address`)}</p>
             </div>
 
             <div className="mt-6 flex gap-3 border-t pt-4">
@@ -37,7 +38,7 @@ export default function HospitalCard({ hospital }: { hospital: Hospital }) {
                     rel="noopener noreferrer"
                     className="flex-1 text-center bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2 px-4 rounded-lg transition-colors"
                 >
-                    Website
+                    {tCommon('website')}
                 </a>
                 <a
                     href={hospital.mapUrl}
@@ -45,7 +46,7 @@ export default function HospitalCard({ hospital }: { hospital: Hospital }) {
                     rel="noopener noreferrer"
                     className="flex-1 text-center bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium py-2 px-4 rounded-lg transition-colors"
                 >
-                    Map
+                    {tCommon('map')}
                 </a>
             </div>
         </div>

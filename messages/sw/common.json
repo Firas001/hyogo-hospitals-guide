@@ -6,10 +6,17 @@
     "noFacilitiesFound": "No facilities found",
     "noFacilitiesDesc": "We couldn't find any hospitals or clinics matching your current active filters. Please try adjusting your criteria.",
     "clearAllFilters": "Clear all filters",
-    "headerTitle": "Hyogo Medical Guide",
-    "footerTitle": "Hyogo Medical Guide",
     "volunteeringProject": "Volunteering project for Hyogo students",
     "developer": "Developer:",
     "dataSource": "Data source:",
-    "openSourceProject": "Open Source Project"
+    "openSourceProject": "Open Source Project",
+    "filterByArea": "Filter by Area",
+    "allAreas": "All Areas",
+    "filterBySpecialty": "Filter by Specialty",
+    "allSpecialties": "All Specialties",
+    "phone": "Phone:",
+    "hours": "Hours:",
+    "address": "Address:",
+    "website": "Website",
+    "map": "Map"
 }

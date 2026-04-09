@@ -77,7 +77,6 @@ export const hospitals: Hospital[] = [
         area: "kic-area",
         specialties: [
             "diabetes-mellitus",
-            "type-1-type-2",
             "endocrine-diseases",
             "lifestyle-diseases",
             "allergy",

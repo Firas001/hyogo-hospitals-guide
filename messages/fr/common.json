@@ -6,10 +6,17 @@
     "noFacilitiesFound": "Aucun établissement trouvé",
     "noFacilitiesDesc": "Nous n'avons trouvé aucun hôpital ou clinique correspondant à vos filtres. Veuillez ajuster vos critères.",
     "clearAllFilters": "Effacer tous les filtres",
-    "headerTitle": "Guide médical de Hyogo",
-    "footerTitle": "Guide médical de Hyogo",
     "volunteeringProject": "Projet bénévole pour les étudiants de Hyogo",
     "developer": "Développeur :",
     "dataSource": "Source de données :",
-    "openSourceProject": "Projet Open Source"
+    "openSourceProject": "Projet Open Source",
+    "filterByArea": "Filtrer par région",
+    "allAreas": "Toutes les régions",
+    "filterBySpecialty": "Filtrer par spécialité",
+    "allSpecialties": "Toutes les spécialités",
+    "phone": "Téléphone:",
+    "hours": "Heures:",
+    "address": "Adresse:",
+    "website": "Site Web",
+    "map": "Carte"
 }

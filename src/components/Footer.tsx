@@ -10,7 +10,7 @@ export default function Footer() {
                     {/* Main info */}
                     <div className="space-y-2">
                         <h3 className="text-lg font-bold bg-clip-text text-transparent bg-linear-to-r from-blue-600 to-indigo-600">
-                            {t('footerTitle')}
+                            {t('title')}
                         </h3>
                         <p className="text-gray-600 flex items-center justify-center gap-2">
                             {t('volunteeringProject')} <Heart className="w-4 h-4 text-red-500 fill-red-500" />
