@@ -11,7 +11,7 @@ export default function HospitalCard({ hospital }: { hospital: Hospital }) {
         <div className="bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 p-6 flex flex-col h-full">
             <div className="flex justify-between items-start mb-4">
                 <h3 className="text-xl font-bold text-gray-800 leading-tight">{tHospitals(`${hospital.key}.name`)}</h3>
-                <span className="bg-blue-50 text-blue-600 text-xs font-semibold px-2.5 py-1 rounded-full whitespace-nowrap ml-3">
+                <span className="bg-blue-50 text-blue-600 text-xs font-semibold px-2.5 py-1 rounded-full whitespace-nowrap ms-3">
                     {tAreas(hospital.area)}
                 </span>
             </div>
