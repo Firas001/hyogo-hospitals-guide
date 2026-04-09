@@ -1,0 +1,330 @@
+[
+    {
+        "id": "1",
+        "name": "Yoshida Ardent Hospital (吉田アーデント病院)",
+        "area": "JICA Kansai Area",
+        "languages": "ENG / GER / FRA / SPN",
+        "specialties": [
+            "Internal medicine",
+            "Gastroenterology",
+            "Cardiovascular medicine",
+            "Respiratory medicine",
+            "Neurology",
+            "Radiology",
+            "Department of Surgery",
+            "Orthopedics",
+            "Neurosurgery",
+            "Plastic Surgery",
+            "Rehabilitation Department"
+        ],
+        "address": "〒657-0835 5 Chome-9-1 Nadakitadori, Nada Ward, Kobe, Hyogo",
+        "phone": "078-861-0001",
+        "hours": "The hours and days of the week differ depending on the department, so please check the website or call the clinic to confirm.",
+        "website": "http://www.voshida-ardent-hospital.com",
+        "mapUrl": "https://maps.app.goo.gl/kizssXEdW6V4n918"
+    },
+    {
+        "id": "2",
+        "name": "Ogawa Clinic (おがわ内科クリニック)",
+        "area": "JICA Kansai Area",
+        "languages": "ENG",
+        "specialties": [
+            "Primary Care",
+            "Internal Medicine Problems",
+            "Check-up/physical",
+            "Vaccinations"
+        ],
+        "address": "〒657-0835 10 Chome-1-3-101 Nadakitadori, Nada Ward, Kobe, Hyogo",
+        "phone": "078-805-3282",
+        "hours": "Mon,Tue/Fri,Sat: 9:00~12:00, Mon,Tue/Fri: 16:00~19:00. Closed: Tue/Sun/National holidays",
+        "website": "http://ogawa-clinic.info/english/index.html",
+        "mapUrl": "https://maps.app.goo.gl/T9BJ6niNevDSAL789"
+    },
+    {
+        "id": "3",
+        "name": "Towa Clinic (東和医院)",
+        "area": "JICA Kansai Area",
+        "languages": "ENG",
+        "specialties": [
+            "Cardiovascular internal medicine",
+            "General internal medicine",
+            "Respiratory internal medicine",
+            "Smoking cessation internal medicine",
+            "Chinese herbal medicine",
+            "Vaccination"
+        ],
+        "address": "〒657-0846 4 Chome-3-5 Iwaya Kitamachi, Nada Ward, Kobe, Hyogo",
+        "phone": "078-881-0588",
+        "hours": "Mon-Sat: 9:00~12:00, Mon-Fri: 15:30~18:30. Closed: Sun/National holidays",
+        "website": "https://www.towa-clinic.in/menu/medicalguidance.html",
+        "mapUrl": "https://maps.app.goo.gl/nS316He/CwF6Ty2s5"
+    },
+    {
+        "id": "4",
+        "name": "Takahashi CLINIC (たかはしクリニック)",
+        "area": "JICA Kansai Area",
+        "languages": "ENG",
+        "specialties": [
+            "Internal medicine",
+            "Dermatology",
+            "Diabetes",
+            "Vaccinations"
+        ],
+        "address": "〒657-0846 5 Chome-1-31 Iwaya Kitamachi, Nada Ward, Kobe, Hyogo",
+        "phone": "078-882-6432",
+        "hours": "Mon-Sat: 9:00-12:00, Mon,Tue/Thu, Fri: 16:00-19:00. Closed: Sun/National holidays",
+        "website": "http://www.takahashi-ped.com/clinic/index.html",
+        "mapUrl": "https://maps.app.goo.gl/DCckyY3dkvMsLvp8A"
+    },
+    {
+        "id": "5",
+        "name": "Hayashi Ophthalmology Clinic (林眼科医院)",
+        "area": "KIC Area",
+        "languages": "ENG",
+        "specialties": [
+            "Ophthalmology"
+        ],
+        "address": "〒650-0004 Hyogo, Kobe, Chuo Ward, Nakayamatedori, 1 Chome-23-10 Mon Chateau Kotobuki Building",
+        "phone": "078-241-7511",
+        "hours": "Mon/Thu: 9:30-12:30, Tue: 9:30~12:00, Sat: 9:30-12:30. Closed: Wed/Fri/Sun/National holidays",
+        "website": "https://hayashigannka.doctorsfile.jp/",
+        "mapUrl": "https://maps.app.goo.gl/G9qGPdqme3DB3S4d6"
+    },
+    {
+        "id": "6",
+        "name": "Kagayaki Diabetic Endocrinology and Chinese Medicine Clinic Shin-Kobe (かがやき糖尿病内分泌漢方クリニック新神戸)",
+        "area": "KIC Area",
+        "languages": "ENG",
+        "specialties": [
+            "Diabetes Mellitus",
+            "Type 1 & Type 2",
+            "Endocrine diseases",
+            "Lifestyle diseases",
+            "Allergy",
+            "Surgery"
+        ],
+        "address": "〒650-0002 Hyogo, Kobe, Chuo Ward, Kanocho, 1 Chome-3-2 Kotonohako Kobe 1 F",
+        "phone": "078-241-1350",
+        "hours": "Mon-Sat: 9:30~12:30, Mon/Sat: 15:00~16:30, Tue/Fri: 16:00~18:30. Closed: Sun/National holidays",
+        "website": "https://okada-dmcl.jp/english.html",
+        "mapUrl": "https://maps.app.goo.gl/uCYvvrQisS7YZTSL9"
+    },
+    {
+        "id": "7",
+        "name": "OHKADO Heart Clinic (おおかど循環器内科)",
+        "area": "KIC Area",
+        "languages": "ENG",
+        "specialties": [
+            "Respiratory",
+            "Surgery",
+            "Cardiology"
+        ],
+        "address": "〒651-0055 4th floor, Art center of Kobe Bldg., 7-1-13, Kumochibashi-dori, Chuo-ku, Kobe Hyogo",
+        "phone": "078-871-5201",
+        "hours": "Mon-Sat: 9:00~12:00, Mon-Wed/Fri: 16:00~19:00. Closed: Sun/National holidays",
+        "website": "https://ohkado-heart-clinic.com/english/",
+        "mapUrl": "https://maps.app.goo.gl/nED7VvdMS2WIwAPЬЯ"
+    },
+    {
+        "id": "8",
+        "name": "Maruyama Ear (丸山耳鼻咽喉科医院)",
+        "area": "KIC Area",
+        "languages": "ENG",
+        "specialties": [
+            "Otolaryngology",
+            "Tracheoesophageal",
+            "Head and Neck Surgery",
+            "Allergy"
+        ],
+        "address": "〒651-0078 Hyogo, Kobe, Chuo Ward, Yagumodori, 3 Chome-3-15 Yagumo building 116",
+        "phone": "078-221-1303",
+        "hours": "Mon-Fri: 9:00~12:00, Sat: 9:00~13:00, Mon-Wed/Fri: 15:00~18:30. Closed: Sun/National holidays",
+        "website": "http://www.maruvama-ent.net/",
+        "mapUrl": "https://maps.app.goo.gl/6xmk42K822bmS1cP8"
+    },
+    {
+        "id": "9",
+        "name": "Kobayashi clinic (小林クリニック)",
+        "area": "Kobe University Area",
+        "languages": "ENG / ITA",
+        "specialties": [
+            "Internal medicine",
+            "Urology",
+            "Home medical care"
+        ],
+        "address": "〒658-0048 1 Chome-30-17 Mikagegunge, Higashinada Ward, Kobe, Hyogo",
+        "phone": "078-846-5330",
+        "hours": "Mon-Sat: 9:00~12:00, Mon Wed/Fri: 17:00~19:00. Closed: Thu/Sun/National holidays",
+        "website": "https://kobe-kobayashiclinic.com/",
+        "mapUrl": "https://maps.app.goo.gl/6xmk42K8z2bmS1eP8"
+    },
+    {
+        "id": "10",
+        "name": "Nagama Clinic (長間医院)",
+        "area": "Kobe University Area",
+        "languages": "ENG / FRN",
+        "specialties": [
+            "Gastroenterology",
+            "Pediatrics"
+        ],
+        "address": "〒658-0011 Hyogo, Kobe, Higashinada Ward, Moriminamimachi, 2 Chome-1-23 Nagama clinic building",
+        "phone": "078-453-7322",
+        "hours": "Mon,Tue/Thu~Sun: 9:00~12:00, Mon-Sun: 17:00~19:00. Closed: National holidays",
+        "website": "http://nagama-iin.byoinnavi.jp/pc/",
+        "mapUrl": "https://maps.app.goo.gl/uxoEC67dk4HUvNRw7"
+    },
+    {
+        "id": "11",
+        "name": "Kobe Kaisei Hospital (神戸海星病院)",
+        "area": "Kobe University Area",
+        "languages": "ENG",
+        "specialties": [
+            "Internal medicine"
+        ],
+        "address": "〒657-0068 Shinohara Kitamachi 3-11-15, Nada Ku, Kobe City",
+        "phone": "078-871-5201",
+        "hours": "Reception (TEL ONLY) Weekdays: 8:30 to 17:00",
+        "website": "https://www.kobe-kaisei.org/en/",
+        "mapUrl": "https://maps.app.goo.gl/tt7dfZJjYkc1HboF9"
+    },
+    {
+        "id": "12",
+        "name": "Concept Lio Dental Clinic",
+        "area": "Kobe University Area",
+        "languages": "ENG / SPN / CHN etc...",
+        "specialties": [
+            "Dental"
+        ],
+        "address": "〒658-0048 Hyogo, Kobe, Higashinada Ward, Fukae Minamimachi, 1 Chome-12-16 Ko-nan heights",
+        "phone": "078-453-0828",
+        "hours": "Mon/Wed/Sat: 9:00~13:00, Tue/Thu, Fri: 10:00~14:00, Sun: 9:30~13:00, Mon/Wed: 14:00~18:30, Tue/Thu, Fri: 15:30~19:30. Closed: National holidays",
+        "website": "https://fukae-vumadental.jp/",
+        "mapUrl": "https://maps.app.goo.gl/cPuvEq6NcDVeRJ6S7"
+    },
+    {
+        "id": "13",
+        "name": "Fumi Neurology Clinic (ふみ脳神経内科)",
+        "area": "Kobe University Area",
+        "languages": "ENG",
+        "specialties": [
+            "Neurology",
+            "Diabetes internal medicine",
+            "Women's internal medicine"
+        ],
+        "address": "〒658-0083 Hyogo, Kobe, Higashinada Ward, Uozaki Nakamachi, 4 Chome-6-15 Dai 2 Matsubara building 1F",
+        "phone": "078-451-1211",
+        "hours": "Mon/Wed-Sat: 9:00~12:00, Mon/Wed-Fri: 12:30~15:00. Closed: Tue/Sun/National holidays",
+        "website": "https://fumi-neurology.com/clinic/",
+        "mapUrl": "https://mans.app.goo.gl/HvvD3mVvuZ1mXrao6"
+    },
+    {
+        "id": "14",
+        "name": "Ito Mental Clinic (伊藤メンタルクリニック)",
+        "area": "Kobe-Sannomiya AREA",
+        "languages": "ENG",
+        "specialties": [
+            "Psychiatry"
+        ],
+        "address": "〒650-0036 Hyogo, Kobe, Chuo Ward, Harimamachi, 49, Kobe Kyukyoryuchi Heiwa Building, 2F",
+        "phone": "078-945-8507",
+        "hours": "Mon-Wed/Fri, Sat: 9:00~12:00, Mon-Wed/Fri: 16:00~18:30. Closed: Thu/Sun/National holidays",
+        "website": "https://imc-kobe.com/",
+        "mapUrl": "https://maps.app.goo.gl/ezkbXhvXL2Lqm5Bc8"
+    },
+    {
+        "id": "15",
+        "name": "Ueno Internal Medicine Diabetes Clinic (上野内科・糖尿病内科クリニック)",
+        "area": "Kobe-Sannomiya AREA",
+        "languages": "ENG",
+        "specialties": [
+            "Internal medicine",
+            "Diabetes"
+        ],
+        "address": "〒650-0022 2 Chome-8-14 Motomachidori, Chuo Ward, Kobe, Hyogo",
+        "phone": "078-391-7500",
+        "hours": "Tue,Wed/Fri,Sat: 9:00~11:30, Tue: 15:00~17:30. Closed: Mon/Thu/Sun/National holidays",
+        "website": "https://uenonaika-clinic.com/",
+        "mapUrl": "https://maps.app.goo.gl/YcqMsmneCUA6nGfW8"
+    },
+    {
+        "id": "16",
+        "name": "Kobe City Medical Center General Hospital (神戸市立医療センター中央市民病院)",
+        "area": "Kobe-Sannomiya AREA",
+        "languages": "ENG",
+        "specialties": [
+            "Internal medicine",
+            "Surgical",
+            "Perinatal and pediatric Division",
+            "Central medical department",
+            "Outpatient departments",
+            "Nursing Department",
+            "Clinical trials/research"
+        ],
+        "address": "〒650-0047 Hyogo, Kobe, Chuo Ward, Minatojima Minamimachi, 2 Chome-1-1",
+        "phone": "078-302-4321",
+        "hours": "Initial consultation: Mon-Fri 8:30-11:00. Closed: Saturdays, Sundays, and holidays",
+        "website": "https://chuo.kcho.jp/en/",
+        "mapUrl": "https://maps.app.goo.gl/5L"
+    },
+    {
+        "id": "17",
+        "name": "Minato-Motomachi Internal Clinic",
+        "area": "Kobe-Sannomiya AREA",
+        "languages": "ENG",
+        "specialties": [
+            "Internal medicine",
+            "Surgical"
+        ],
+        "address": "〒658-0083 Hyogo, Kobe, Higashinada Ward, Uozaki Nakamachi, 4 Chome-6-15",
+        "phone": "078-451-1211",
+        "hours": "Mon-Sat: 9:00~12:00, Mon/Wed: 14:00~17:00, Tue/Thu: 14:00~18:00. Closed: Sun/National holidays",
+        "website": "https://m-m-n-clinic.p-kit.com/",
+        "mapUrl": "https://maps.app.goo.gl/ezTT3n5B6axw35118"
+    },
+    {
+        "id": "18",
+        "name": "Mori Clinic (森医院)",
+        "area": "Kobe-Sannomiya AREA",
+        "languages": "ENG",
+        "specialties": [
+            "Internal medicine",
+            "Diabetes"
+        ],
+        "address": "〒652-0803 7 Chome-5-22 Daikaidori, Hyogo Ward, Kobe, Hyogo",
+        "phone": "078-575-3608",
+        "hours": "Mon-Wed/Fri, Sat: 9:00~13:00, Mon-Wed/Fri: 17:00~19:00. Closed: Thu/Sun/National holidays",
+        "website": "https://mori-naikaclinic.jp/",
+        "mapUrl": "https://maps.app.goo.gl/T16dtufeYr7LxaAA"
+    },
+    {
+        "id": "19",
+        "name": "Shukugawa naishikyonaikamaeda Clinic (夙川内視鏡内科まえだクリニック)",
+        "area": "Nishinomiya Area",
+        "languages": "ENG",
+        "specialties": [
+            "Internal medicine",
+            "Urology"
+        ],
+        "address": "〒662-0075 Hyogo, Nishinomiya, Minamikoshikiiwacho, 6-7 Rapport Kurakuen 2nd floor",
+        "phone": "0798-56-8480",
+        "hours": "Mon/Wed-Sat: 9:00~15:00, Mon/Wed-Fri: 15:00~18:00. Closed: Tue/Sun/National holidays",
+        "website": "https://www.shukugawa-naishikyo.com/english.html",
+        "mapUrl": "https://maps.app.goo.gl/vYQbA"
+    },
+    {
+        "id": "20",
+        "name": "Kawano Internal Medical Clinic (川野内科クリニック)",
+        "area": "Nishinomiya Area",
+        "languages": "ENG / FRN",
+        "specialties": [
+            "Internal medicine",
+            "Cardiovascular medicine",
+            "Allergy medicine"
+        ],
+        "address": "11-14, Utsuromachi, Nishinomiya-shi, Hyogo 662-0978",
+        "phone": "078-453-7322",
+        "hours": "Mon-Sat: 9:00~12:30, Mon-Wed/Fri: 16:30~19:00. Closed: Sun/National holidays",
+        "website": "https://www.kawanonaika.com",
+        "mapUrl": "https://maps.app.goo.gl/byJhj8YJe4ptiRq07"
+    }
+]
