@@ -2,9 +2,10 @@
 
 import { useState, useMemo } from 'react';
 import hospitalsData from './data/hospitals.json';
-import HospitalCard from './components/HospitalCard';
-import FilterBar from './components/FilterBar';
-import { Hospital } from './types';
+import HospitalCard from '@/components/HospitalCard';
+import FilterBar from '@/components/FilterBar';
+import { Hospital } from '@/types';
+import { useTranslations } from 'next-intl';
 
 export default function Home() {
   const [selectedArea, setSelectedArea] = useState<string>('');
@@ -12,14 +13,12 @@ export default function Home() {
 
   const hospitals: Hospital[] = hospitalsData;
 
-  // استخراج قائمة المناطق والتخصصات الفريدة للدروب داون
   const areas = useMemo(() => Array.from(new Set(hospitals.map(h => h.area))).sort(), [hospitals]);
   const specialties = useMemo(() => {
     const allSpecialties = hospitals.flatMap(h => h.specialties);
     return Array.from(new Set(allSpecialties)).sort();
   }, [hospitals]);
 
-  // تطبيق الفلترة
   const filteredHospitals = useMemo(() => {
     return hospitals.filter(hospital => {
       const matchArea = selectedArea ? hospital.area === selectedArea : true;
@@ -30,6 +29,8 @@ export default function Home() {
     });
   }, [selectedArea, selectedSpecialty, hospitals]);
 
+  const t = useTranslations('HomePage');
+
   return (
     <main className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
@@ -38,6 +39,7 @@ export default function Home() {
           <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl">
             Hyogo Medical Directory
           </h1>
+          <h2>{t('title')}</h2>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
             Find English-speaking clinics and hospitals in Kobe, Nishinomiya, and surrounding areas.
           </p>
