@@ -10,6 +10,12 @@ export default getRequestConfig(async () => {
     },
     hospitals: {
       ...(await import(`../../messages/${locale}/hospitals.json`)).default,
+    },
+    areas: {
+      ...(await import(`../../messages/${locale}/areas.json`)).default,
+    },
+    specialties: {
+      ...(await import(`../../messages/${locale}/specialties.json`)).default,
     }
   };
 

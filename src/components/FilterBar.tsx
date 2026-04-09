@@ -1,3 +1,5 @@
+import { useTranslations } from "next-intl";
+
 interface FilterBarProps {
     areas: string[];
     specialties: string[];
@@ -15,6 +17,10 @@ export default function FilterBar({
     selectedSpecialty,
     setSelectedSpecialty,
 }: FilterBarProps) {
+
+    const tAreas = useTranslations('areas');
+    const tSpecialties = useTranslations('specialties');
+
     return (
         <div className="bg-white p-4 rounded-xl shadow-sm border border-gray-100 mb-8 flex flex-col sm:flex-row gap-4">
             <div className="flex-1">
@@ -26,7 +32,7 @@ export default function FilterBar({
                 >
                     <option value="">All Areas</option>
                     {areas.map((area) => (
-                        <option key={area} value={area}>{area}</option>
+                        <option key={area} value={area}>{tAreas(area)}</option>
                     ))}
                 </select>
             </div>
@@ -40,7 +46,7 @@ export default function FilterBar({
                 >
                     <option value="">All Specialties</option>
                     {specialties.map((specialty) => (
-                        <option key={specialty} value={specialty}>{specialty}</option>
+                        <option key={specialty} value={specialty}>{tSpecialties(specialty)}</option>
                     ))}
                 </select>
             </div>

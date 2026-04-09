@@ -3,20 +3,19 @@ import { Hospital } from "@/types";
 export const hospitals: Hospital[] = [
     {
         key: "yoshida-ardent-hospital",
-        area: "JICA Kansai Area",
-        languages: "ENG / GER / FRA / SPN",
+        area: "jica-kansai-area",
         specialties: [
-            "Internal medicine",
-            "Gastroenterology",
-            "Cardiovascular medicine",
-            "Respiratory medicine",
-            "Neurology",
-            "Radiology",
-            "Department of Surgery",
-            "Orthopedics",
-            "Neurosurgery",
-            "Plastic Surgery",
-            "Rehabilitation Department"
+            "internal-medicine",
+            "gastroenterology",
+            "cardiovascular-medicine",
+            "respiratory-medicine",
+            "neurology",
+            "radiology",
+            "department-of-surgery",
+            "orthopedics",
+            "neurosurgery",
+            "plastic-surgery",
+            "rehabilitation-department"
         ],
         phone: "078-861-0001",
         website: "http://www.voshida-ardent-hospital.com",
@@ -24,13 +23,12 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "ogawa-clinic",
-        area: "JICA Kansai Area",
-        languages: "ENG",
+        area: "jica-kansai-area",
         specialties: [
-            "Primary Care",
-            "Internal Medicine Problems",
-            "Check-up/physical",
-            "Vaccinations"
+            "primary-care",
+            "internal-medicine-problems",
+            "check-up-physical",
+            "vaccinations"
         ],
         phone: "078-805-3282",
         website: "http://ogawa-clinic.info/english/index.html",
@@ -38,15 +36,14 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "towa-clinic",
-        area: "JICA Kansai Area",
-        languages: "ENG",
+        area: "jica-kansai-area",
         specialties: [
-            "Cardiovascular internal medicine",
-            "General internal medicine",
-            "Respiratory internal medicine",
-            "Smoking cessation internal medicine",
-            "Chinese herbal medicine",
-            "Vaccination"
+            "cardiovascular-internal-medicine",
+            "general-internal-medicine",
+            "respiratory-internal-medicine",
+            "smoking-cessation-internal-medicine",
+            "chinese-herbal-medicine",
+            "vaccination"
         ],
         phone: "078-881-0588",
         website: "https://www.towa-clinic.in/menu/medicalguidance.html",
@@ -54,13 +51,12 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "takahashi-clinic",
-        area: "JICA Kansai Area",
-        languages: "ENG",
+        area: "jica-kansai-area",
         specialties: [
-            "Internal medicine",
-            "Dermatology",
-            "Diabetes",
-            "Vaccinations"
+            "internal-medicine",
+            "dermatology",
+            "diabetes",
+            "vaccinations"
         ],
         phone: "078-882-6432",
         website: "http://www.takahashi-ped.com/clinic/index.html",
@@ -68,10 +64,9 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "hayashi-ophthalmology-clinic",
-        area: "KIC Area",
-        languages: "ENG",
+        area: "kic-area",
         specialties: [
-            "Ophthalmology"
+            "ophthalmology"
         ],
         phone: "078-241-7511",
         website: "https://hayashigannka.doctorsfile.jp/",
@@ -79,15 +74,14 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "kagayaki-diabetic-endocrinology-and-chinese-medicine-clinic-shin-kobe",
-        area: "KIC Area",
-        languages: "ENG",
+        area: "kic-area",
         specialties: [
-            "Diabetes Mellitus",
-            "Type 1 & Type 2",
-            "Endocrine diseases",
-            "Lifestyle diseases",
-            "Allergy",
-            "Surgery"
+            "diabetes-mellitus",
+            "type-1-type-2",
+            "endocrine-diseases",
+            "lifestyle-diseases",
+            "allergy",
+            "surgery"
         ],
         phone: "078-241-1350",
         website: "https://okada-dmcl.jp/english.html",
@@ -95,12 +89,11 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "ohkado-heart-clinic",
-        area: "KIC Area",
-        languages: "ENG",
+        area: "kic-area",
         specialties: [
-            "Respiratory",
-            "Surgery",
-            "Cardiology"
+            "respiratory",
+            "surgery",
+            "cardiology"
         ],
         phone: "078-871-5201",
         website: "https://ohkado-heart-clinic.com/english/",
@@ -108,13 +101,12 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "maruyama-ear",
-        area: "KIC Area",
-        languages: "ENG",
+        area: "kic-area",
         specialties: [
-            "Otolaryngology",
-            "Tracheoesophageal",
-            "Head and Neck Surgery",
-            "Allergy"
+            "otolaryngology",
+            "tracheoesophageal",
+            "head-and-neck-surgery",
+            "allergy"
         ],
         phone: "078-221-1303",
         website: "http://www.maruvama-ent.net/",
@@ -122,12 +114,11 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "kobayashi-clinic",
-        area: "Kobe University Area",
-        languages: "ENG / ITA",
+        area: "kobe-university-area",
         specialties: [
-            "Internal medicine",
-            "Urology",
-            "Home medical care"
+            "internal-medicine",
+            "urology",
+            "home-medical-care"
         ],
         phone: "078-846-5330",
         website: "https://kobe-kobayashiclinic.com/",
@@ -135,11 +126,10 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "nagama-clinic",
-        area: "Kobe University Area",
-        languages: "ENG / FRN",
+        area: "kobe-university-area",
         specialties: [
-            "Gastroenterology",
-            "Pediatrics"
+            "gastroenterology",
+            "pediatrics"
         ],
         phone: "078-453-7322",
         website: "http://nagama-iin.byoinnavi.jp/pc/",
@@ -147,10 +137,9 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "kobe-kaisei-hospital",
-        area: "Kobe University Area",
-        languages: "ENG",
+        area: "kobe-university-area",
         specialties: [
-            "Internal medicine"
+            "internal-medicine"
         ],
         phone: "078-871-5201",
         website: "https://www.kobe-kaisei.org/en/",
@@ -158,10 +147,9 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "concept-lio-dental-clinic",
-        area: "Kobe University Area",
-        languages: "ENG / SPN / CHN etc...",
+        area: "kobe-university-area",
         specialties: [
-            "Dental"
+            "dental"
         ],
         phone: "078-453-0828",
         website: "https://fukae-vumadental.jp/",
@@ -169,12 +157,11 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "fumi-neurology-clinic",
-        area: "Kobe University Area",
-        languages: "ENG",
+        area: "kobe-university-area",
         specialties: [
-            "Neurology",
-            "Diabetes internal medicine",
-            "Women's internal medicine"
+            "neurology",
+            "diabetes-internal-medicine",
+            "women-s-internal-medicine"
         ],
         phone: "078-451-1211",
         website: "https://fumi-neurology.com/clinic/",
@@ -182,10 +169,9 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "ito-mental-clinic",
-        area: "Kobe-Sannomiya AREA",
-        languages: "ENG",
+        area: "kobe-sannomiya-area",
         specialties: [
-            "Psychiatry"
+            "psychiatry"
         ],
         phone: "078-945-8507",
         website: "https://imc-kobe.com/",
@@ -193,11 +179,10 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "ueno-internal-medicine-diabetes-clinic",
-        area: "Kobe-Sannomiya AREA",
-        languages: "ENG",
+        area: "kobe-sannomiya-area",
         specialties: [
-            "Internal medicine",
-            "Diabetes"
+            "internal-medicine",
+            "diabetes"
         ],
         phone: "078-391-7500",
         website: "https://uenonaika-clinic.com/",
@@ -205,16 +190,15 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "kobe-city-medical-center-general-hospital",
-        area: "Kobe-Sannomiya AREA",
-        languages: "ENG",
+        area: "kobe-sannomiya-area",
         specialties: [
-            "Internal medicine",
-            "Surgical",
-            "Perinatal and pediatric Division",
-            "Central medical department",
-            "Outpatient departments",
-            "Nursing Department",
-            "Clinical trials/research"
+            "internal-medicine",
+            "surgical",
+            "perinatal-and-pediatric-division",
+            "central-medical-department",
+            "outpatient-departments",
+            "nursing-department",
+            "clinical-trials-research"
         ],
         phone: "078-302-4321",
         website: "https://chuo.kcho.jp/en/",
@@ -222,11 +206,10 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "minato-motomachi-internal-clinic",
-        area: "Kobe-Sannomiya AREA",
-        languages: "ENG",
+        area: "kobe-sannomiya-area",
         specialties: [
-            "Internal medicine",
-            "Surgical"
+            "internal-medicine",
+            "surgical"
         ],
         phone: "078-451-1211",
         website: "https://m-m-n-clinic.p-kit.com/",
@@ -234,11 +217,10 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "mori-clinic",
-        area: "Kobe-Sannomiya AREA",
-        languages: "ENG",
+        area: "kobe-sannomiya-area",
         specialties: [
-            "Internal medicine",
-            "Diabetes"
+            "internal-medicine",
+            "diabetes"
         ],
         phone: "078-575-3608",
         website: "https://mori-naikaclinic.jp/",
@@ -246,11 +228,10 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "shukugawa-naishikyonaikamaeda-clinic",
-        area: "Nishinomiya Area",
-        languages: "ENG",
+        area: "nishinomiya-area",
         specialties: [
-            "Internal medicine",
-            "Urology"
+            "internal-medicine",
+            "urology"
         ],
         phone: "0798-56-8480",
         website: "https://www.shukugawa-naishikyo.com/english.html",
@@ -258,15 +239,14 @@ export const hospitals: Hospital[] = [
     },
     {
         key: "kawano-internal-medical-clinic",
-        area: "Nishinomiya Area",
-        languages: "ENG / FRN",
+        area: "nishinomiya-area",
         specialties: [
-            "Internal medicine",
-            "Cardiovascular medicine",
-            "Allergy medicine"
+            "internal-medicine",
+            "cardiovascular-medicine",
+            "allergy-medicine"
         ],
         phone: "078-453-7322",
         website: "https://www.kawanonaika.com",
         mapUrl: "https://maps.app.goo.gl/byJhj8YJe4ptiRq07"
     }
-]
+];

@@ -1,17 +1,14 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import hospitalsData from './data/hospitals.json';
+import { hospitals } from '@/data/hospitals';
 import HospitalCard from '@/components/HospitalCard';
 import FilterBar from '@/components/FilterBar';
-import { Hospital } from '@/types';
 import { useTranslations } from 'next-intl';
 
 export default function Home() {
   const [selectedArea, setSelectedArea] = useState<string>('');
   const [selectedSpecialty, setSelectedSpecialty] = useState<string>('');
-
-  const hospitals: Hospital[] = hospitalsData;
 
   const areas = useMemo(() => Array.from(new Set(hospitals.map(h => h.area))).sort(), [hospitals]);
   const specialties = useMemo(() => {
@@ -29,7 +26,7 @@ export default function Home() {
     });
   }, [selectedArea, selectedSpecialty, hospitals]);
 
-  const t = useTranslations('HomePage');
+  // const t = useTranslations('HomePage');
 
   return (
     <main className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
@@ -39,7 +36,7 @@ export default function Home() {
           <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl">
             Hyogo Medical Directory
           </h1>
-          <h2>{t('title')}</h2>
+          {/* <h2>{t('title')}</h2> */}
           <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
             Find English-speaking clinics and hospitals in Kobe, Nishinomiya, and surrounding areas.
           </p>
@@ -63,8 +60,8 @@ export default function Home() {
         {/* Hospitals Grid */}
         {filteredHospitals.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredHospitals.map((hospital) => (
-              <HospitalCard key={hospital.id} hospital={hospital} />
+            {filteredHospitals.map((hospital, index) => (
+              <HospitalCard key={index} hospital={hospital} />
             ))}
           </div>
         ) : (
