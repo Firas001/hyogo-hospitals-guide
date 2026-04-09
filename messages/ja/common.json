@@ -1,0 +1,15 @@
+{
+    "title": "兵庫県医療ディレクトリ",
+    "heroDescription": "神戸、西宮、その周辺の英語対応可能なクリニックや病院を検索できます。言葉の壁のない健康を。",
+    "searchResults": "検索結果",
+    "facilitiesFound": "件の施設が見つかりました",
+    "noFacilitiesFound": "施設が見つかりません",
+    "noFacilitiesDesc": "現在のフィルター条件に一致する病院やクリニックは見つかりませんでした。条件を変更して再度お試しください。",
+    "clearAllFilters": "すべてのフィルターをクリア",
+    "headerTitle": "兵庫医療ガイド",
+    "footerTitle": "兵庫医療ガイド",
+    "volunteeringProject": "兵庫の学生のためのボランティアプロジェクト",
+    "developer": "開発者:",
+    "dataSource": "データ提供元:",
+    "openSourceProject": "オープンソースプロジェクト"
+}

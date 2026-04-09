@@ -1,0 +1,15 @@
+{
+    "title": "Annuaire médical de Hyogo",
+    "heroDescription": "Trouvez des cliniques et hôpitaux anglophones à Kobe, Nishinomiya et dans les environs. Votre santé, sans barrière linguistique.",
+    "searchResults": "Résultats de recherche",
+    "facilitiesFound": "établissements trouvés",
+    "noFacilitiesFound": "Aucun établissement trouvé",
+    "noFacilitiesDesc": "Nous n'avons trouvé aucun hôpital ou clinique correspondant à vos filtres. Veuillez ajuster vos critères.",
+    "clearAllFilters": "Effacer tous les filtres",
+    "headerTitle": "Guide médical de Hyogo",
+    "footerTitle": "Guide médical de Hyogo",
+    "volunteeringProject": "Projet bénévole pour les étudiants de Hyogo",
+    "developer": "Développeur :",
+    "dataSource": "Source de données :",
+    "openSourceProject": "Projet Open Source"
+}
