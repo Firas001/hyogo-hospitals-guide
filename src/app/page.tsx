@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react';
 import { hospitals } from '@/data/hospitals';
 import HospitalCard from '@/components/HospitalCard';
 import FilterBar from '@/components/FilterBar';
+import ContributeSection from '@/components/ContributeSection';
 import { useTranslations } from 'next-intl';
 
 export default function Home() {
@@ -95,6 +96,8 @@ export default function Home() {
           </div>
         )}
       </div>
+
+      <ContributeSection />
     </main>
   );
 }

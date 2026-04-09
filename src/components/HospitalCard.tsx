@@ -78,15 +78,15 @@ export default function HospitalCard({ hospital }: { hospital: Hospital }) {
         <div className="group bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full overflow-hidden">
 
             {/* ── Header ── */}
-            <div className="bg-linear-to-br from-blue-600 to-blue-700 px-5 pt-5 pb-8 flex gap-4 justify-between">
+            <div className="border-b-4 border-blue-500 bg-white px-5 pt-5 pb-4 flex gap-3 items-start justify-between">
 
-                <h3 className="text-lg font-bold text-white leading-snug drop-shadow-sm flex-3">
+                <h3 className="text-[17px] font-bold text-gray-800 leading-snug flex-1">
                     {tHospitals(`${hospital.key}.name`)}
                 </h3>
 
-                <p className="bg-white/20 text-white text-[11px] font-semibold px-2.5 py-1 rounded-full backdrop-blur-sm border border-white/20 text-center h-max flex-1">
+                <span className="bg-blue-50 text-blue-600 text-[11px] font-semibold px-2.5 py-1 rounded-full border border-blue-100 whitespace-nowrap shrink-0 mt-0.5">
                     {tAreas(hospital.area)}
-                </p>
+                </span>
 
             </div>
 

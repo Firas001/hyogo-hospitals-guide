@@ -18,5 +18,8 @@
     "hours": "Heures:",
     "address": "Adresse:",
     "website": "Site Web",
-    "map": "Carte"
+    "map": "Carte",
+    "contributeTitle": "Vous connaissez un hôpital ou une clinique non répertorié ?",
+    "contributeDescription": "Si vous connaissez un hôpital ou une clinique dans la préfecture de Hyogo qui n'est pas encore listé ici, aidez-nous à l'ajouter ! Votre contribution aide la communauté à trouver les soins dont elle a besoin.",
+    "contributeButton": "Soumettre un établissement"
 }
