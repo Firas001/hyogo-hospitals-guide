@@ -15,7 +15,7 @@ const tajawal = Tajawal({
 
 export const metadata: Metadata = {
   title: "Hyogo Medical Guide",
-  description: "Find English-speaking clinics and hospitals in Kobe, Nishinomiya, and surrounding areas.",
+  description: "Find clinics and hospitals in Hyogo Prefecture",
 };
 
 export default async function RootLayout({
