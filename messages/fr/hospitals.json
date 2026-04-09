@@ -1,102 +1,82 @@
 {
   "yoshida-ardent-hospital": {
     "name": "Hôpital Yoshida Ardent",
-    "address": "〒657-0835 5 Chome-9-1 Nadakitadori, Nada Ward, Kobe, Hyogo",
-    "hours": "Les horaires et jours de la semaine varient selon le département, veuillez consulter le site web ou appeler la clinique pour confirmer."
+    "address": "〒657-0835 5 Chome-9-1 Nadakitadori, Nada Ward, Kobe, Hyogo"
   },
   "ogawa-clinic": {
     "name": "Clinique Ogawa",
-    "address": "〒657-0835 10 Chome-1-3-101 Nadakitadori, Nada Ward, Kobe, Hyogo",
-    "hours": "Lun, Mar/Ven, Sam : 9:00~12:00, Lun, Mar/Ven : 16:00~19:00. Fermé : Mar (après-midi)/Dim/Jours fériés"
+    "address": "〒657-0835 10 Chome-1-3-101 Nadakitadori, Nada Ward, Kobe, Hyogo"
   },
   "towa-clinic": {
     "name": "Clinique Towa",
-    "address": "〒657-0846 4 Chome-3-5 Iwaya Kitamachi, Nada Ward, Kobe, Hyogo",
-    "hours": "Lun-Sam : 9:00~12:00, Lun-Ven : 15:30~18:30. Fermé : Dim/Jours fériés"
+    "address": "〒657-0846 4 Chome-3-5 Iwaya Kitamachi, Nada Ward, Kobe, Hyogo"
   },
   "takahashi-clinic": {
     "name": "Clinique Takahashi",
-    "address": "〒657-0846 5 Chome-1-31 Iwaya Kitamachi, Nada Ward, Kobe, Hyogo",
-    "hours": "Lun-Sam : 9:00-12:00, Lun, Mar/Jeu, Ven : 16:00-19:00. Fermé : Dim/Jours fériés"
+    "address": "〒657-0846 5 Chome-1-31 Iwaya Kitamachi, Nada Ward, Kobe, Hyogo"
   },
   "hayashi-ophthalmology-clinic": {
     "name": "Clinique d'Ophtalmologie Hayashi",
-    "address": "〒650-0004 Hyogo, Kobe, Chuo Ward, Nakayamatedori, 1 Chome-23-10 Immeuble Mon Chateau Kotobuki",
-    "hours": "Lun/Jeu : 9:30-12:30, Mar : 9:30~12:00, Sam : 9:30-12:30. Fermé : Mer/Ven/Dim/Jours fériés"
+    "address": "〒650-0004 Hyogo, Kobe, Chuo Ward, Nakayamatedori, 1 Chome-23-10 Immeuble Mon Chateau Kotobuki"
   },
   "kagayaki-diabetic-endocrinology-and-chinese-medicine-clinic-shin-kobe": {
     "name": "Clinique Kagayaki (Diabétologie, Endocrinologie et Médecine Chinoise) Shin-Kobe",
-    "address": "〒650-0002 Hyogo, Kobe, Chuo Ward, Kanocho, 1 Chome-3-2 Kotonohako Kobe 1 F",
-    "hours": "Lun-Sam : 9:30~12:30, Lun/Sam : 15:00~16:30, Mar/Ven : 16:00~18:30. Fermé : Dim/Jours fériés"
+    "address": "〒650-0002 Hyogo, Kobe, Chuo Ward, Kanocho, 1 Chome-3-2 Kotonohako Kobe 1 F"
   },
   "ohkado-heart-clinic": {
     "name": "Clinique Cardiaque OHKADO",
-    "address": "〒651-0055 4ème étage, Immeuble Art center of Kobe, 7-1-13, Kumochibashi-dori, Chuo-ku, Kobe Hyogo",
-    "hours": "Lun-Sam : 9:00~12:00, Lun-Mer/Ven : 16:00~19:00. Fermé : Dim/Jours fériés"
+    "address": "〒651-0055 4ème étage, Immeuble Art center of Kobe, 7-1-13, Kumochibashi-dori, Chuo-ku, Kobe Hyogo"
   },
   "maruyama-ear": {
     "name": "Clinique ORL Maruyama",
-    "address": "〒651-0078 Hyogo, Kobe, Chuo Ward, Yagumodori, 3 Chome-3-15 Immeuble Yagumo 116",
-    "hours": "Lun-Ven : 9:00~12:00, Sam : 9:00~13:00, Lun-Mer/Ven : 15:00~18:30. Fermé : Dim/Jours fériés"
+    "address": "〒651-0078 Hyogo, Kobe, Chuo Ward, Yagumodori, 3 Chome-3-15 Immeuble Yagumo 116"
   },
   "kobayashi-clinic": {
     "name": "Clinique Kobayashi",
-    "address": "〒658-0048 1 Chome-30-17 Mikagegunge, Higashinada Ward, Kobe, Hyogo",
-    "hours": "Lun-Sam : 9:00~12:00, Lun, Mer/Ven : 17:00~19:00. Fermé : Jeu/Dim/Jours fériés"
+    "address": "〒658-0048 1 Chome-30-17 Mikagegunge, Higashinada Ward, Kobe, Hyogo"
   },
   "nagama-clinic": {
     "name": "Clinique Nagama",
-    "address": "〒658-0011 Hyogo, Kobe, Higashinada Ward, Moriminamimachi, 2 Chome-1-23 Immeuble Nagama Clinic",
-    "hours": "Lun, Mar/Jeu~Dim : 9:00~12:00, Lun-Dim : 17:00~19:00. Fermé : Jours fériés"
+    "address": "〒658-0011 Hyogo, Kobe, Higashinada Ward, Moriminamimachi, 2 Chome-1-23 Immeuble Nagama Clinic"
   },
   "kobe-kaisei-hospital": {
     "name": "Hôpital Kobe Kaisei",
-    "address": "〒657-0068 Shinohara Kitamachi 3-11-15, Nada Ku, Ville de Kobe",
-    "hours": "Réception (TÉLÉPHONE UNIQUEMENT) Semaine : 8:30 à 17:00"
+    "address": "〒657-0068 Shinohara Kitamachi 3-11-15, Nada Ku, Ville de Kobe"
   },
   "concept-lio-dental-clinic": {
     "name": "Clinique Dentaire Concept Lio",
-    "address": "〒658-0048 Hyogo, Kobe, Higashinada Ward, Fukae Minamimachi, 1 Chome-12-16 Ko-nan heights",
-    "hours": "Lun/Mer/Sam : 9:00~13:00, Mar/Jeu, Ven : 10:00~14:00, Dim : 9:30~13:00, Lun/Mer : 14:00~18:30, Mar/Jeu, Ven : 15:30~19:30. Fermé : Jours fériés"
+    "address": "〒658-0048 Hyogo, Kobe, Higashinada Ward, Fukae Minamimachi, 1 Chome-12-16 Ko-nan heights"
   },
   "fumi-neurology-clinic": {
     "name": "Clinique de Neurologie Fumi",
-    "address": "〒658-0083 Hyogo, Kobe, Higashinada Ward, Uozaki Nakamachi, 4 Chome-6-15 Immeuble Dai 2 Matsubara 1F",
-    "hours": "Lun/Mer-Sam : 9:00~12:00, Lun/Mer-Ven : 12:30~15:00. Fermé : Mar/Dim/Jours fériés"
+    "address": "〒658-0083 Hyogo, Kobe, Higashinada Ward, Uozaki Nakamachi, 4 Chome-6-15 Immeuble Dai 2 Matsubara 1F"
   },
   "ito-mental-clinic": {
     "name": "Clinique Mentale Ito",
-    "address": "〒650-0036 Hyogo, Kobe, Chuo Ward, Harimamachi, 49, Immeuble Kobe Kyukyoryuchi Heiwa, 2F",
-    "hours": "Lun-Mer/Ven, Sam : 9:00~12:00, Lun-Mer/Ven : 16:00~18:30. Fermé : Jeu/Dim/Jours fériés"
+    "address": "〒650-0036 Hyogo, Kobe, Chuo Ward, Harimamachi, 49, Immeuble Kobe Kyukyoryuchi Heiwa, 2F"
   },
   "ueno-internal-medicine-diabetes-clinic": {
     "name": "Clinique de Médecine Interne et Diabétologie Ueno",
-    "address": "〒650-0022 2 Chome-8-14 Motomachidori, Chuo Ward, Kobe, Hyogo",
-    "hours": "Mar, Mer/Ven, Sam : 9:00~11:30, Mar : 15:00~17:30. Fermé : Lun/Jeu/Dim/Jours fériés"
+    "address": "〒650-0022 2 Chome-8-14 Motomachidori, Chuo Ward, Kobe, Hyogo"
   },
   "kobe-city-medical-center-general-hospital": {
     "name": "Hôpital Général du Centre Médical de la Ville de Kobe",
-    "address": "〒650-0047 Hyogo, Kobe, Chuo Ward, Minatojima Minamimachi, 2 Chome-1-1",
-    "hours": "Première consultation : Lun-Ven 8:30-11:00. Fermé : Samedis, dimanches et jours fériés"
+    "address": "〒650-0047 Hyogo, Kobe, Chuo Ward, Minatojima Minamimachi, 2 Chome-1-1"
   },
   "minato-motomachi-internal-clinic": {
     "name": "Clinique de Médecine Interne Minato-Motomachi",
-    "address": "〒658-0083 Hyogo, Kobe, Higashinada Ward, Uozaki Nakamachi, 4 Chome-6-15",
-    "hours": "Lun-Sam : 9:00~12:00, Lun/Mer : 14:00~17:00, Mar/Jeu : 14:00~18:00. Fermé : Dim/Jours fériés"
+    "address": "〒658-0083 Hyogo, Kobe, Higashinada Ward, Uozaki Nakamachi, 4 Chome-6-15"
   },
   "mori-clinic": {
     "name": "Clinique Mori",
-    "address": "〒652-0803 7 Chome-5-22 Daikaidori, Hyogo Ward, Kobe, Hyogo",
-    "hours": "Lun-Mer/Ven, Sam : 9:00~13:00, Lun-Mer/Ven : 17:00~19:00. Fermé : Jeu/Dim/Jours fériés"
+    "address": "〒652-0803 7 Chome-5-22 Daikaidori, Hyogo Ward, Kobe, Hyogo"
   },
   "shukugawa-naishikyonaikamaeda-clinic": {
     "name": "Clinique d'Endoscopie Shukugawa Maeda",
-    "address": "〒662-0075 Hyogo, Nishinomiya, Minamikoshikiiwacho, 6-7 Rapport Kurakuen 2ème étage",
-    "hours": "Lun/Mer-Sam : 9:00~15:00, Lun/Mer-Ven : 15:00~18:00. Fermé : Mar/Dim/Jours fériés"
+    "address": "〒662-0075 Hyogo, Nishinomiya, Minamikoshikiiwacho, 6-7 Rapport Kurakuen 2ème étage"
   },
   "kawano-internal-medical-clinic": {
     "name": "Clinique de Médecine Interne Kawano",
-    "address": "11-14, Utsuromachi, Nishinomiya-shi, Hyogo 662-0978",
-    "hours": "Lun-Sam : 9:00~12:30, Lun-Mer/Ven : 16:30~19:00. Fermé : Dim/Jours fériés"
+    "address": "11-14, Utsuromachi, Nishinomiya-shi, Hyogo 662-0978"
   }
 }

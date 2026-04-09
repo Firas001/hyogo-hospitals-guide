@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { Hospital } from '../types';
+import { Hospital, HospitalHoursRow } from '../types';
 
 // --- SVG Icons ---
 const PhoneIcon = () => (
@@ -39,29 +39,132 @@ const MapIcon = () => (
 );
 
 /**
- * Parses a raw hours string like:
- *   "Mon-Sat: 9:00~12:00, Mon-Wed/Fri: 16:00~19:00. Closed: Sun/National holidays"
- * into an array of { label, times } objects for structured display.
+ * Ordered sequence of the 7 week day keys used in HospitalHoursRow.
+ * Special tokens like "weekdays" / "nationalHolidays" are handled separately.
  */
-function parseHours(raw: string): { label: string; times: string }[] {
-    // Split on ". " or just "." if it separates sentences, then on ","
-    const rows: { label: string; times: string }[] = [];
+const WEEK_ORDER = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'] as const;
 
-    // Split first by ". " to handle the "Closed: ..." part separately
-    const segments = raw.split(/\.\s+|(?<=\))\.\s+/);
-    segments.forEach(seg => {
-        // Each segment can have multiple comma-separated entries
-        const parts = seg.split(/,\s+(?=[A-Z])/);
-        parts.forEach(part => {
-            const colonIdx = part.indexOf(':');
-            if (colonIdx === -1) return;
-            const label = part.slice(0, colonIdx).trim();
-            const times = part.slice(colonIdx + 1).trim();
-            if (label && times) rows.push({ label, times });
-        });
-    });
+/**
+ * Formats an array of day keys into a compact human-readable string.
+ *
+ * Rules:
+ * - Special tokens (weekdays, nationalHolidays) are always translated individually.
+ * - Consecutive sequences of 3+ regular days collapse into "First ~ Last".
+ * - Non-consecutive or 1-2 day groups are listed with " / ".
+ *
+ * Example inputs → outputs (in English):
+ *   ["mon","tue","wed","thu","fri","sat"] → "Mon ~ Sat"
+ *   ["mon","tue","wed","fri"]             → "Mon / Tue / Wed / Fri"
+ *   ["mon","wed","fri"]                   → "Mon / Wed / Fri"
+ *   ["mon","tue","fri","sat"]             → "Mon ~ Tue / Fri ~ Sat"
+ *   ["tue","sun","nationalHolidays"]      → "Tue / Sun / National Holidays"
+ */
+function formatDays(
+    days: string[],
+    tCommon: ReturnType<typeof useTranslations>
+): string {
+    const t = (k: string) => tCommon(k as Parameters<typeof tCommon>[0]);
 
-    return rows;
+    // Separate regular week-days from special tokens
+    const specialTokens = new Set(['weekdays', 'nationalHolidays']);
+    const weekDays = days.filter(d => !specialTokens.has(d));
+    const specials = days.filter(d => specialTokens.has(d));
+
+    // Sort week-days by their canonical order
+    const sorted = [...weekDays].sort(
+        (a, b) => WEEK_ORDER.indexOf(a as typeof WEEK_ORDER[number]) - WEEK_ORDER.indexOf(b as typeof WEEK_ORDER[number])
+    );
+
+    // Group consecutive runs
+    const parts: string[] = [];
+    let i = 0;
+    while (i < sorted.length) {
+        const runStart = i;
+        while (
+            i + 1 < sorted.length &&
+            WEEK_ORDER.indexOf(sorted[i + 1] as typeof WEEK_ORDER[number]) ===
+            WEEK_ORDER.indexOf(sorted[i] as typeof WEEK_ORDER[number]) + 1
+        ) {
+            i++;
+        }
+        const runEnd = i;
+        const runLength = runEnd - runStart + 1;
+
+        if (runLength >= 3) {
+            // Collapse: "Mon ~ Fri"
+            parts.push(`${t(sorted[runStart])} ~ ${t(sorted[runEnd])}`);
+        } else {
+            // List individually
+            for (let j = runStart; j <= runEnd; j++) {
+                parts.push(t(sorted[j]));
+            }
+        }
+        i++;
+    }
+
+    // Append special tokens at end
+    for (const s of specials) parts.push(t(s));
+
+    return parts.join(' / ');
+}
+
+/**
+ * Renders a single structured hours row using translated day names.
+ * - `note` rows: full-width italic note (e.g. "varies by department").
+ * - `closed` rows: red label + translated day list.
+ * - Regular rows: translated day list + LTR time range.
+ */
+function HoursRow({
+    row,
+    index,
+    tCommon,
+}: {
+    row: HospitalHoursRow;
+    index: number;
+    tCommon: ReturnType<typeof useTranslations>;
+}) {
+    const bg = index % 2 === 0 ? 'bg-white' : 'bg-gray-50';
+
+    // Pure note row (e.g. "hours vary by department")
+    if (row.note && row.days.length === 0) {
+        return (
+            <div className={`px-3 py-2 text-xs italic text-gray-500 ${bg}`}>
+                {tCommon(row.note as Parameters<typeof tCommon>[0])}
+            </div>
+        );
+    }
+
+    const daysList = formatDays(row.days, tCommon);
+
+    // Closed row
+    if (row.closed) {
+        return (
+            <div className={`flex items-start justify-between gap-2 px-3 py-2 text-xs bg-red-50`}>
+                <span className="font-semibold whitespace-nowrap text-red-600">
+                    {tCommon('closed')}
+                </span>
+                <span className="text-end text-red-500">
+                    {daysList}
+                </span>
+            </div>
+        );
+    }
+
+    // Regular hours row (optionally prefixed with a note label)
+    const label = row.note
+        ? `${tCommon(row.note as Parameters<typeof tCommon>[0])}: ${daysList}`
+        : daysList;
+
+    return (
+        <div className={`flex items-start justify-between gap-2 px-3 py-2 text-xs ${bg}`}>
+            <span className="font-semibold whitespace-nowrap text-gray-700">
+                {label}
+            </span>
+            <span className="text-end text-gray-500" dir="ltr">
+                {row.times}
+            </span>
+        </div>
+    );
 }
 
 export default function HospitalCard({ hospital }: { hospital: Hospital }) {
@@ -70,9 +173,7 @@ export default function HospitalCard({ hospital }: { hospital: Hospital }) {
     const tHospitals = useTranslations('hospitals');
     const tCommon = useTranslations('common');
 
-    const rawHours = tHospitals(`${hospital.key}.hours`);
-    const hoursRows = parseHours(rawHours);
-    const hasStructuredHours = hoursRows.length > 0;
+    const hasHours = hospital.hours && hospital.hours.length > 0;
 
     return (
         <div className="group bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full overflow-hidden">
@@ -123,29 +224,15 @@ export default function HospitalCard({ hospital }: { hospital: Hospital }) {
                 <div className="flex items-start gap-2.5 text-sm">
                     <span className="text-blue-500 mt-0.5 shrink-0"><ClockIcon /></span>
                     <div className="flex-1">
-                        {hasStructuredHours ? (
+                        {hasHours ? (
                             <div className="rounded-xl border border-gray-100 overflow-hidden bg-gray-50">
-                                {hoursRows.map((row, i) => {
-                                    const isClosed = /closed/i.test(row.label);
-                                    return (
-                                        <div
-                                            key={i}
-                                            className={`flex items-start justify-between gap-2 px-3 py-2 text-xs ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'
-                                                } ${isClosed ? 'bg-red-50' : ''}`}
-                                        >
-                                            <span className={`font-semibold whitespace-nowrap ${isClosed ? 'text-red-600' : 'text-gray-700'}`}>
-                                                {row.label}
-                                            </span>
-                                            <span className={`text-end ${isClosed ? 'text-red-500' : 'text-gray-500'}`} dir="ltr">
-                                                {row.times}
-                                            </span>
-                                        </div>
-                                    );
-                                })}
+                                {hospital.hours!.map((row, i) => (
+                                    <HoursRow key={i} row={row} index={i} tCommon={tCommon} />
+                                ))}
                             </div>
                         ) : (
-                            <p className="text-xs text-gray-500 italic leading-relaxed bg-gray-50 rounded-xl px-3 py-2 border border-gray-100">
-                                {rawHours}
+                            <p className="text-xs text-gray-400 italic leading-relaxed bg-gray-50 rounded-xl px-3 py-2 border border-gray-100">
+                                —
                             </p>
                         )}
                     </div>

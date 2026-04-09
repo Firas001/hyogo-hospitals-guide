@@ -1,102 +1,82 @@
 {
   "yoshida-ardent-hospital": {
     "name": "Hospitali ya Yoshida Ardent",
-    "address": "〒657-0835 5 Chome-9-1 Nadakitadori, Wodi ya Nada, Kobe, Hyogo",
-    "hours": "Saa na siku za wiki hutofautiana kulingana na idara, kwa hivyo tafadhali kagua tovuti au piga simu kliniki ili kuthibitisha."
+    "address": "〒657-0835 5 Chome-9-1 Nadakitadori, Wodi ya Nada, Kobe, Hyogo"
   },
   "ogawa-clinic": {
     "name": "Kliniki ya Ogawa",
-    "address": "〒657-0835 10 Chome-1-3-101 Nadakitadori, Wodi ya Nada, Kobe, Hyogo",
-    "hours": "Jumatatu, Jumanne/Ijumaa, Jumamosi: 9:00~12:00, Jumatatu, Jumanne/Ijumaa: 16:00~19:00. Imefungwa: Jumanne (mchana)/Jumapili/Siku kuu za kitaifa"
+    "address": "〒657-0835 10 Chome-1-3-101 Nadakitadori, Wodi ya Nada, Kobe, Hyogo"
   },
   "towa-clinic": {
     "name": "Kliniki ya Towa",
-    "address": "〒657-0846 4 Chome-3-5 Iwaya Kitamachi, Wodi ya Nada, Kobe, Hyogo",
-    "hours": "Jumatatu-Jumamosi: 9:00~12:00, Jumatatu-Ijumaa: 15:30~18:30. Imefungwa: Jumapili/Siku kuu za kitaifa"
+    "address": "〒657-0846 4 Chome-3-5 Iwaya Kitamachi, Wodi ya Nada, Kobe, Hyogo"
   },
   "takahashi-clinic": {
     "name": "Kliniki ya Takahashi",
-    "address": "〒657-0846 5 Chome-1-31 Iwaya Kitamachi, Wodi ya Nada, Kobe, Hyogo",
-    "hours": "Jumatatu-Jumamosi: 9:00-12:00, Jumatatu, Jumanne/Alhamisi, Ijumaa: 16:00-19:00. Imefungwa: Jumapili/Siku kuu za kitaifa"
+    "address": "〒657-0846 5 Chome-1-31 Iwaya Kitamachi, Wodi ya Nada, Kobe, Hyogo"
   },
   "hayashi-ophthalmology-clinic": {
     "name": "Kliniki ya Macho ya Hayashi",
-    "address": "〒650-0004 Hyogo, Kobe, Wodi ya Chuo, Nakayamatedori, 1 Chome-23-10 Jengo la Mon Chateau Kotobuki",
-    "hours": "Jumatatu/Alhamisi: 9:30-12:30, Jumanne: 9:30~12:00, Jumamosi: 9:30-12:30. Imefungwa: Jumatano/Ijumaa/Jumapili/Siku kuu za kitaifa"
+    "address": "〒650-0004 Hyogo, Kobe, Wodi ya Chuo, Nakayamatedori, 1 Chome-23-10 Jengo la Mon Chateau Kotobuki"
   },
   "kagayaki-diabetic-endocrinology-and-chinese-medicine-clinic-shin-kobe": {
     "name": "Kliniki ya Kagayaki ya Kisukari na Tiba ya Kichina Shin-Kobe",
-    "address": "〒650-0002 Hyogo, Kobe, Wodi ya Chuo, Kanocho, 1 Chome-3-2 Kotonohako Kobe 1 F",
-    "hours": "Jumatatu-Jumamosi: 9:30~12:30, Jumatatu/Jumamosi: 15:00~16:30, Jumanne/Ijumaa: 16:00~18:30. Imefungwa: Jumapili/Siku kuu za kitaifa"
+    "address": "〒650-0002 Hyogo, Kobe, Wodi ya Chuo, Kanocho, 1 Chome-3-2 Kotonohako Kobe 1 F"
   },
   "ohkado-heart-clinic": {
     "name": "Kliniki ya Moyo ya OHKADO",
-    "address": "〒651-0055 Ghorofa ya 4, Jengo la Art center of Kobe, 7-1-13, Kumochibashi-dori, Chuo-ku, Kobe Hyogo",
-    "hours": "Jumatatu-Jumamosi: 9:00~12:00, Jumatatu-Jumatano/Ijumaa: 16:00~19:00. Imefungwa: Jumapili/Siku kuu za kitaifa"
+    "address": "〒651-0055 Ghorofa ya 4, Jengo la Art center of Kobe, 7-1-13, Kumochibashi-dori, Chuo-ku, Kobe Hyogo"
   },
   "maruyama-ear": {
     "name": "Kliniki ya Masikio ya Maruyama",
-    "address": "〒651-0078 Hyogo, Kobe, Wodi ya Chuo, Yagumodori, 3 Chome-3-15 Jengo la Yagumo 116",
-    "hours": "Jumatatu-Ijumaa: 9:00~12:00, Jumamosi: 9:00~13:00, Jumatatu-Jumatano/Ijumaa: 15:00~18:30. Imefungwa: Jumapili/Siku kuu za kitaifa"
+    "address": "〒651-0078 Hyogo, Kobe, Wodi ya Chuo, Yagumodori, 3 Chome-3-15 Jengo la Yagumo 116"
   },
   "kobayashi-clinic": {
     "name": "Kliniki ya Kobayashi",
-    "address": "〒658-0048 1 Chome-30-17 Mikagegunge, Wodi ya Higashinada, Kobe, Hyogo",
-    "hours": "Jumatatu-Jumamosi: 9:00~12:00, Jumatatu, Jumatano/Ijumaa: 17:00~19:00. Imefungwa: Alhamisi/Jumapili/Siku kuu za kitaifa"
+    "address": "〒658-0048 1 Chome-30-17 Mikagegunge, Wodi ya Higashinada, Kobe, Hyogo"
   },
   "nagama-clinic": {
     "name": "Kliniki ya Nagama",
-    "address": "〒658-0011 Hyogo, Kobe, Wodi ya Higashinada, Moriminamimachi, 2 Chome-1-23 Jengo la kliniki ya Nagama",
-    "hours": "Jumatatu, Jumanne/Alhamisi-Jumapili: 9:00~12:00, Jumatatu-Jumapili: 17:00~19:00. Imefungwa: Siku kuu za kitaifa"
+    "address": "〒658-0011 Hyogo, Kobe, Wodi ya Higashinada, Moriminamimachi, 2 Chome-1-23 Jengo la kliniki ya Nagama"
   },
   "kobe-kaisei-hospital": {
     "name": "Hospitali ya Kobe Kaisei",
-    "address": "〒657-0068 Shinohara Kitamachi 3-11-15, Nada Ku, Jiji la Kobe",
-    "hours": "Mapokezi (SIMU TU) Siku za wiki: 8:30 hadi 17:00"
+    "address": "〒657-0068 Shinohara Kitamachi 3-11-15, Nada Ku, Jiji la Kobe"
   },
   "concept-lio-dental-clinic": {
     "name": "Kliniki ya Meno ya Concept Lio",
-    "address": "〒658-0048 Hyogo, Kobe, Wodi ya Higashinada, Fukae Minamimachi, 1 Chome-12-16 Ko-nan heights",
-    "hours": "Jumatatu/Jumatano/Jumamosi: 9:00~13:00, Jumanne/Alhamisi, Ijumaa: 10:00~14:00, Jumapili: 9:30~13:00, Jumatatu/Jumatano: 14:00~18:30, Jumanne/Alhamisi, Ijumaa: 15:30~19:30. Imefungwa: Siku kuu za kitaifa"
+    "address": "〒658-0048 Hyogo, Kobe, Wodi ya Higashinada, Fukae Minamimachi, 1 Chome-12-16 Ko-nan heights"
   },
   "fumi-neurology-clinic": {
     "name": "Kliniki ya Neurolojia ya Fumi",
-    "address": "〒658-0083 Hyogo, Kobe, Wodi ya Higashinada, Uozaki Nakamachi, 4 Chome-6-15 Jengo la Dai 2 Matsubara 1F",
-    "hours": "Jumatatu/Jumatano-Jumamosi: 9:00~12:00, Jumatatu/Jumatano-Ijumaa: 12:30~15:00. Imefungwa: Jumanne/Jumapili/Siku kuu za kitaifa"
+    "address": "〒658-0083 Hyogo, Kobe, Wodi ya Higashinada, Uozaki Nakamachi, 4 Chome-6-15 Jengo la Dai 2 Matsubara 1F"
   },
   "ito-mental-clinic": {
     "name": "Kliniki ya Akili ya Ito",
-    "address": "〒650-0036 Hyogo, Kobe, Wodi ya Chuo, Harimamachi, 49, Jengo la Kobe Kyukyoryuchi Heiwa, 2F",
-    "hours": "Jumatatu-Jumatano/Ijumaa, Jumamosi: 9:00~12:00, Jumatatu-Jumatano/Ijumaa: 16:00~18:30. Imefungwa: Alhamisi/Jumapili/Siku kuu za kitaifa"
+    "address": "〒650-0036 Hyogo, Kobe, Wodi ya Chuo, Harimamachi, 49, Jengo la Kobe Kyukyoryuchi Heiwa, 2F"
   },
   "ueno-internal-medicine-diabetes-clinic": {
     "name": "Kliniki ya Tiba ya Ndani na Kisukari ya Ueno",
-    "address": "〒650-0022 2 Chome-8-14 Motomachidori, Wodi ya Chuo, Kobe, Hyogo",
-    "hours": "Jumanne, Jumatano/Ijumaa, Jumamosi: 9:00~11:30, Jumanne: 15:00~17:30. Imefungwa: Jumatatu/Alhamisi/Jumapili/Siku kuu za kitaifa"
+    "address": "〒650-0022 2 Chome-8-14 Motomachidori, Wodi ya Chuo, Kobe, Hyogo"
   },
   "kobe-city-medical-center-general-hospital": {
     "name": "Hospitali Kuu ya Kituo cha Matibabu cha Jiji la Kobe",
-    "address": "〒650-0047 Hyogo, Kobe, Wodi ya Chuo, Minatojima Minamimachi, 2 Chome-1-1",
-    "hours": "Ushauri wa kwanza: Jumatatu-Ijumaa 8:30-11:00. Imefungwa: Jumamosi, Jumapili, na siku kuu"
+    "address": "〒650-0047 Hyogo, Kobe, Wodi ya Chuo, Minatojima Minamimachi, 2 Chome-1-1"
   },
   "minato-motomachi-internal-clinic": {
     "name": "Kliniki ya Ndani ya Minato-Motomachi",
-    "address": "〒658-0083 Hyogo, Kobe, Wodi ya Higashinada, Uozaki Nakamachi, 4 Chome-6-15",
-    "hours": "Jumatatu-Jumamosi: 9:00~12:00, Jumatatu/Jumatano: 14:00~17:00, Jumanne/Alhamisi: 14:00~18:00. Imefungwa: Jumapili/Siku kuu za kitaifa"
+    "address": "〒658-0083 Hyogo, Kobe, Wodi ya Higashinada, Uozaki Nakamachi, 4 Chome-6-15"
   },
   "mori-clinic": {
     "name": "Kliniki ya Mori",
-    "address": "〒652-0803 7 Chome-5-22 Daikaidori, Wodi ya Hyogo, Kobe, Hyogo",
-    "hours": "Jumatatu-Jumatano/Ijumaa, Jumamosi: 9:00~13:00, Jumatatu-Jumatano/Ijumaa: 17:00~19:00. Imefungwa: Alhamisi/Jumapili/Siku kuu za kitaifa"
+    "address": "〒652-0803 7 Chome-5-22 Daikaidori, Wodi ya Hyogo, Kobe, Hyogo"
   },
   "shukugawa-naishikyonaikamaeda-clinic": {
     "name": "Kliniki ya Shukugawa naishikyonaikamaeda",
-    "address": "〒662-0075 Hyogo, Nishinomiya, Minamikoshikiiwacho, 6-7 Rapport Kurakuen ghorofa ya 2",
-    "hours": "Jumatatu/Jumatano-Jumamosi: 9:00~15:00, Jumatatu/Jumatano-Ijumaa: 15:00~18:00. Imefungwa: Jumanne/Jumapili/Siku kuu za kitaifa"
+    "address": "〒662-0075 Hyogo, Nishinomiya, Minamikoshikiiwacho, 6-7 Rapport Kurakuen ghorofa ya 2"
   },
   "kawano-internal-medical-clinic": {
     "name": "Kliniki ya Tiba ya Ndani ya Kawano",
-    "address": "11-14, Utsuromachi, Nishinomiya-shi, Hyogo 662-0978",
-    "hours": "Jumatatu-Jumamosi: 9:00~12:30, Jumatatu-Jumatano/Ijumaa: 16:30~19:00. Imefungwa: Jumapili/Siku kuu za kitaifa"
+    "address": "11-14, Utsuromachi, Nishinomiya-shi, Hyogo 662-0978"
   }
 }
