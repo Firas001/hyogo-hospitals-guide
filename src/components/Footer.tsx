@@ -34,7 +34,7 @@ export default function Footer() {
                     {/* Open source */}
                     <div className="pt-6 border-t border-gray-100 w-full max-w-md flex justify-center">
                         <a
-                            href="https://github.com/firasaldeeni/hyogo-hospitals-guide"
+                            href="https://github.com/Firas001/hyogo-hospitals-guide"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900 transition-colors group"
